@@ -185,7 +185,7 @@ const Home = (props) => {
                   <p>
                     <i className="fas fa-check" />
                     <span>The more entries you rate - the submissions get better and better</span>
-                  </p>
+                  </p>    
                 </div>
                 <img src={`${CONSTANTS.STATIC_IMAGES_PATH}gif/3-compressed.gif`} alt="compressed" />
               </div>
