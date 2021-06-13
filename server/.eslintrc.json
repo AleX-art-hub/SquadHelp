@@ -66,6 +66,15 @@
     "strict": [
       2,
       "never"
+    ],
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
     ]
   }
 }
