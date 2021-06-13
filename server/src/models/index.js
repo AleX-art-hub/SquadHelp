@@ -30,7 +30,7 @@ fs
   .forEach((file) => {
     const model = require(path.join(__dirname, file))(sequelize, Sequelize.DataTypes);
     db[ model.name ] = model;
-  });
+  });  
 
 db[ 'Contests' ].belongsTo(db[ 'Users' ],
   { foreignKey: 'userId', sourceKey: 'id' });
